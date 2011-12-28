@@ -1,0 +1,248 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\MFCTest.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MFCTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MFCTest"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "MFCTest，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_MFCTEST_DIALOG DIALOGEX 0, 0, 411, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MFCTest"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SHOCKWAVEFLASH1,
+                    "{D27CDB6E-AE6D-11CF-96B8-444553540000}",NOT WS_VISIBLE | WS_TABSTOP,347,177,57,14
+    CONTROL         "",IDC_CAMERA_AREA,"Static",SS_BLACKFRAME,203,7,183,137
+    LISTBOX         IDC_LIST1,287,179,54,12,LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_CAMERA_AREA2,"Static",SS_BLACKFRAME,7,7,183,138
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,207,162,73,15
+    LTEXT           "调节:",IDC_STATIC,211,151,17,8,NOT WS_GROUP
+    LTEXT           "Threshold2:",IDC_STATIC,131,180,38,8,NOT WS_VISIBLE | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,232,150,27,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,171,177,27,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT3,243,177,16,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Density:",IDC_STATIC,215,180,26,8,NOT WS_VISIBLE | NOT WS_GROUP
+    PUSHBUTTON      "Set",IDC_BUTTON1,258,176,15,14,NOT WS_VISIBLE
+    PUSHBUTTON      "保存",IDC_BUTTON2,136,154,55,21
+    PUSHBUTTON      "捕捉",IDC_CAPTURE_BK,7,154,57,21
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,55,176,73,15
+    PUSHBUTTON      "复原",IDC_BUTTON4,72,154,55,21
+    LTEXT           "每秒帧数:",IDC_STATIC,300,159,31,8
+    EDITTEXT        IDC_EDIT4,335,156,29,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_LOGO,"Static",SS_BITMAP,262,210,13,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "海市蜃楼广告传媒（北京）有限公司"
+            VALUE "FileDescription", "摄像头捕捉后台程序"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "MFCTest.exe"
+            VALUE "LegalCopyright", "Copyright (C) Mirage. All Rights Reserved"
+            VALUE "OriginalFilename", "MFCTest.exe"
+            VALUE "ProductName", "摄像头捕捉后台程序"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_MFCTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MFCTEST_DIALOG DLGINIT
+BEGIN
+    IDC_SHOCKWAVEFLASH1, 0x376, 284, 0
+0x0000, 0x0000, 0x5567, 0x5566, 0x0900, 0x0000, 0x0a56, 0x0000, 0x0295, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0000, 0x0008, 0x000e, 0x0000, 0x0057, 0x0069, 0x006e, 0x0064, 
+0x006f, 0x0077, 0x0000, 0x0008, 0x0006, 0x0000, 0x002d, 0x0031, 0x0000, 
+0x0008, 0x0006, 0x0000, 0x002d, 0x0031, 0x0000, 0x0008, 0x000a, 0x0000, 
+0x0048, 0x0069, 0x0067, 0x0068, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x0008, 0x0006, 0x0000, 0x002d, 0x0031, 0x0000, 0x0008, 0x0000, 0x0000, 
+0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0010, 0x0000, 0x0053, 0x0068, 
+0x006f, 0x0077, 0x0041, 0x006c, 0x006c, 0x0000, 0x0008, 0x0004, 0x0000, 
+0x0030, 0x0000, 0x0008, 0x0004, 0x0000, 0x0030, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x000d, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0008, 0x0004, 0x0000, 0x0031, 0x0000, 0x0008, 0x0004, 0x0000, 0x0030, 
+0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 0x0004, 0x0000, 0x0030, 0x0000, 
+0x0008, 0x0008, 0x0000, 0x0061, 0x006c, 0x006c, 0x0000, 0x0008, 0x000c, 
+0x0000, 0x0066, 0x0061, 0x006c, 0x0073, 0x0065, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MFCTest(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\MFCTest.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

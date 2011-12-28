@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCTest", "MFCTest\MFCTest.vcproj", "{099C72C4-4CBF-4679-89C8-7B3418532F3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ET99Test", "ET99Test\ET99Test.vcproj", "{450B3E23-420F-4905-8AC4-BFCE8DDAB982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{099C72C4-4CBF-4679-89C8-7B3418532F3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{099C72C4-4CBF-4679-89C8-7B3418532F3B}.Debug|Win32.Build.0 = Debug|Win32
+		{099C72C4-4CBF-4679-89C8-7B3418532F3B}.Release|Win32.ActiveCfg = Release|Win32
+		{099C72C4-4CBF-4679-89C8-7B3418532F3B}.Release|Win32.Build.0 = Release|Win32
+		{450B3E23-420F-4905-8AC4-BFCE8DDAB982}.Debug|Win32.ActiveCfg = Debug|Win32
+		{450B3E23-420F-4905-8AC4-BFCE8DDAB982}.Debug|Win32.Build.0 = Debug|Win32
+		{450B3E23-420F-4905-8AC4-BFCE8DDAB982}.Release|Win32.ActiveCfg = Release|Win32
+		{450B3E23-420F-4905-8AC4-BFCE8DDAB982}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
